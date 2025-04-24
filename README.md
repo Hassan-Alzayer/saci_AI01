@@ -1,7 +1,7 @@
-📱 Hataf App
+#📱 Hataf App
 A modern React Native application for managing stadium seating and events, built with Expo.
 
-🚀 Getting Started
+#🚀 Getting Started
 Prerequisites
 Ensure you have the following installed:
 
@@ -36,7 +36,7 @@ Use the Expo Go app on your mobile device
 
 Run it in an Android/iOS emulator or simulator
 
-📱 Features
+#📱 Features
 Welcome Screen – Beautiful onboarding experience
 
 Home Dashboard – View upcoming events and ticket reservations
@@ -47,7 +47,7 @@ Profile Management – Manage user profile and preferences
 
 Card Management – Digital access and membership cards
 
-📂 Project Structure
+#📂 Project Structure
 plaintext
 Copy
 app/
@@ -60,7 +60,7 @@ app/
     ├── index.tsx          # Home dashboard
     ├── calendar.tsx       # Calendar and stadium map
     └── profile.tsx        # User profile
-🛠 Tech Stack
+#🛠 Tech Stack
 React Native
 
 Expo Router
