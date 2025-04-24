@@ -1,0 +1,5 @@
+train: C:/Users/sulta/Downloads/PassX/Data/train
+val:   C:/Users/sulta/Downloads/PassX/Data/valid
+test:  C:/Users/sulta/Downloads/PassX/Data/test
+nc: 1
+names: ['person']

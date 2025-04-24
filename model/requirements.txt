@@ -1,0 +1,24 @@
+# Core vision & model libs
+opencv-python>=4.7.0              # OpenCV for image/video I/O
+ultralytics==8.0.100              # YOLOv8 API
+roboflow>=1.0.0                   # Roboflow Python SDK
+
+# Data augmentation
+albumentations==1.4.10            # matches paddleocr requirement
+pyparsing>=3.0                    # for pydot and plotting
+
+# Inference & client APIs
+numpy>=2.0.0,<2.3.0               # satisfy inference 0.47.0
+openai>=0.27.0,<0.28.0            # satisfy genai 2.1.0
+protobuf>=4.25.6,<6.0dev          # satisfy grpcio 1.71.x & opentelemetry-proto
+typing-extensions>=4.8.0,<=4.12.2 # satisfy inference 0.47.0
+
+# Utilities
+certifi>=2023.7.22                # satisfy kaggle 1.6.8
+pillow>=9.0.0,<11.0.0             # satisfy inference-sdk 0.45.1
+async-timeout<5.0.0,>=4.0.0       # satisfy langchain on Python<3.11
+
+# (Optional extras you may use)
+matplotlib>=3.3.0                 # for live‐plotting in notebooks
+pafy>=0.5.5                       # for YouTube support
+youtube_dl>=2021.12.17            # for YouTube support
